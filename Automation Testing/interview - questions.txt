@@ -1,0 +1,67 @@
+-------------- Coding ------------------------------
+remove duplicate in astring
+number of occurance in character - string
+number and string of duplicate character in a string 
+How to remove duplicate from set or array
+Space remove in string
+Print second argest number
+
+---------------- Description -----------------
+exceptions
+Git  commands for switching branch
+SQL commands
+Xpaths for dynamic
+diff b/w sprint review and retrosprint
+What is inheritance? Can we use inheritance in Interface?
+What are multiple inheritances?  - java T point 
+Diff array vs array list - java t point 
+list vs set
+Topic hashamaps
+When defect mark as high priority and low priority 
+Write a program for data driven Diff 
+Framework  and tools explain
+Agile methodologies
+Explain about constructor
+Interface example
+Which cases we need to automate and not 
+Diff smoke, sanity, regression
+How to generate html reports
+What are scrum and kanban?
+Is webdriver a class or interface then which class is implementing methods of webdriver?
+
+How do you manage branches of code in your project?
+What is the return type of hashmaps?
+which cases we do automate and not
+what is cross browser testing
+what r utilites u created in ur frame work?
+scenario where used hashmap
+linked list and array list
+can we try multiple catch with single class
+can we over ride protected methods
+can we create object for abstract class
+how to re run failed cases
+hooks baground
+where we can use java script executor
+advantages of bdd 
+smoke testing
+ regression vs integression
+sdlc vs stlc
+aode coverage analysis
+testng
+ throw vs throws 
+hat are hashmap and HashSet? Explain??
+array list vs linked list
+agile vs water 
+------------- agile -----
+sprint review 
+retro spective
+Sprint planning
+● Sprint review
+● Sprint Retrospective
+● Daily scrum meeting.
+
+
+-----------------
+exceptions
+bdd
+git testng 

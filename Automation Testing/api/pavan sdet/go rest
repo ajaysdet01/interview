@@ -1,0 +1,25 @@
+token - d02b2256af100050905105c8c58283bbcfa9a1e99bf7457141c71f0be0b379eb
+
+
+> https://gorest.co.in/
+
+POST 	 		/public/v2/users	Create a new user
+GET		 		/public/v2/users/6942305	Get user details
+PUT|PATCH 		/public/v2/users/6942305	Update user details
+DELETE 			/public/v2/users/6942305	Delete user
+
+
+ 
+
+{
+"name": "kumar",
+"gender": "male", 
+"email": "tenali.ramakrishna@15ce.com",
+"status": "active"
+}
+
+
+
+
+------------------------------- books api ---------------------------
+token - 36ae778d5ac5b8ae95dca6c6dc37c8939217b4f9b7d35ea6e86d3535b8a1a41d

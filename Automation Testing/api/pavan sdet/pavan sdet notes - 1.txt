@@ -1,0 +1,3 @@
+ ---------- fetch id 
+const jsonData = JSON.parse(responseBody);
+pm.enviornment.set("id",jsonData.id);
