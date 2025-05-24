@@ -1,0 +1,5 @@
+Response res = given()
+.auth()
+.basic("user","pwd")
+.when()
+.get("url")
