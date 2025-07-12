@@ -1,67 +1,224 @@
--------------- Coding ------------------------------
-remove duplicate in astring
-number of occurance in character - string
-number and string of duplicate character in a string 
-How to remove duplicate from set or array
-Space remove in string
-Print second argest number
+**OOPs Concepts**
 
----------------- Description -----------------
-exceptions
-Git  commands for switching branch
-SQL commands
-Xpaths for dynamic
-diff b/w sprint review and retrosprint
-What is inheritance? Can we use inheritance in Interface?
-What are multiple inheritances?  - java T point 
-Diff array vs array list - java t point 
-list vs set
-Topic hashamaps
-When defect mark as high priority and low priority 
-Write a program for data driven Diff 
-Framework  and tools explain
-Agile methodologies
-Explain about constructor
-Interface example
-Which cases we need to automate and not 
-Diff smoke, sanity, regression
-How to generate html reports
-What are scrum and kanban?
-Is webdriver a class or interface then which class is implementing methods of webdriver?
+* What is Inheritance? Can we use inheritance in Interface?
+* Explain OOPs with real-time framework examples.
+* Can we override protected methods?
+* Can we create an object of an abstract class?
+* Interface vs Abstract class
+* Final vs Finally vs Finalize
+* `this`, `super`, `static` usage in OOPs
+* Custom exceptions
+]
+**Core Java Topics**
 
-How do you manage branches of code in your project?
-What is the return type of hashmaps?
-which cases we do automate and not
-what is cross browser testing
-what r utilites u created in ur frame work?
-scenario where used hashmap
-linked list and array list
-can we try multiple catch with single class
-can we over ride protected methods
-can we create object for abstract class
-how to re run failed cases
-hooks baground
-where we can use java script executor
-advantages of bdd 
-smoke testing
- regression vs integression
-sdlc vs stlc
-aode coverage analysis
-testng
- throw vs throws 
-hat are hashmap and HashSet? Explain??
-array list vs linked list
-agile vs water 
-------------- agile -----
-sprint review 
-retro spective
-Sprint planning
-● Sprint review
-● Sprint Retrospective
-● Daily scrum meeting.
+* What is a constructor? Types?
+* throw vs throws
+* Exception handling: try-catch, multiple catch, custom exceptions
+* Garbage collection (how and when it occurs)
+* Can we use multiple catch blocks for one try block?
+* Is WebDriver a class or interface? Which class implements its methods?
 
+### 🔹 **Collections Framework**
 
------------------
-exceptions
-bdd
-git testng 
+* List vs Set
+* ArrayList vs LinkedList
+* HashMap vs Hashtable
+* TreeSet vs HashSet
+* TreeMap vs HashMap
+* Map sorting (TreeMap)
+* Difference: Array vs ArrayList
+* Collections vs Collection
+* Return type of HashMap
+* Scenario where you used HashMap in a project
+
+## 🔸 **Java Programming Practice**
+
+### 🔹 **String & Character Problems**
+
+* Count word and character frequency
+* Count duplicate characters in a string
+* Remove duplicates (Set, Array)
+* Remove spaces from a string
+* Convert words to uppercase
+* Frequency of words
+
+### 🔹 **Number/Array Problems**
+
+* Print second largest number (int array)
+* Second smallest/largest element
+* Swap two numbers
+* Sorting arrays
+* Remove duplicates from arrays
+
+---
+
+## 🔸 **Selenium + BDD + TestNG**
+
+### 🔹 **Selenium**
+
+* PageFactory
+* JavaScriptExecutor usage
+* Cross browser testing
+* How to generate HTML reports
+* WebDriver: interface or class?
+
+### 🔹 **BDD (Cucumber)**
+
+* Hooks
+* Background
+* Data-driven features (Examples, Excel, Scenario Outline)
+* Advantages of BDD
+
+### 🔹 **TestNG**
+
+* DataProvider
+* Listeners & Listener reports
+* Rerun failed test cases
+
+---
+
+## 🔸 **API Testing (REST Assured)**
+
+* Difference between Authentication and Authorization
+* Basic Auth implementation
+* JWT vs API Token
+* Preemptive Authentication
+* Status Codes (200, 201, 400, 401, 404, 500)
+* Serialization and Deserialization
+
+---
+
+## 🔸 **Agile, Git & Framework**
+
+### 🔹 **Agile/Scrum**
+
+* Agile vs Waterfall
+* Scrum vs Kanban
+* SDLC vs STLC
+* Sprint Planning, Sprint Review, Sprint Retrospective
+* Daily Stand-up meeting
+* Difference: Smoke, Sanity, Regression, Integration Testing
+* Which cases to automate or not
+* Marking defect as high/low priority
+* Code coverage analysis
+
+### 🔹 **Git & DevOps**
+
+* Git commands for branch switching, merging
+* Branch management in your project
+
+### 🔹 **Framework Explanation**
+
+* Your automation framework structure
+* Framework tools used (Maven, Jenkins, etc.)
+* Utilities created in your framework
+* Data-driven framework explanation
+
+---
+
+## 🔸 **SQL + XPath**
+
+* Basic SQL commands
+* XPath for dynamic elements
+
+Here are **additional high-impact interview questions**, sourced and inspired by current 2025 trends, to enrich your preparation across Java, Selenium, BDD, TestNG, API testing, and Agile:
+
+---
+
+## 🧠 **Advanced Java & Core Concepts**
+
+* Explain **multithreading** in Java, `synchronized`, `volatile`, and `ReentrantLock`.
+* What is the Java **Memory Model**? Differences between Heap and Stack.
+* Differences between **==** and **equals()**, and `hashCode()`’s role.
+* What are **Stream API**, `map()`, `filter()`, and parallel streams?
+* Describe **Lambda expressions** and functional interfaces.
+* **Generics**: bounded types, Type erasure, Comparable vs Comparator.
+* What are **Annotations**? Custom annotations and Retention policy.
+* Explain **Reflection API** use cases and risks.
+* What is **JVM tuning**, GC types, and how to analyze memory leaks?
+
+---
+
+## 🔍 **Selenium WebDriver & TestNG**
+
+* **Locate elements** using CSS selectors vs XPath; pros/cons.
+* Handle **iframes**, **alerts**, **pop-ups**, and **file uploads**.
+* Wait strategies: **Implicit**, **Explicit**, **FluentWait**, and `ExpectedConditions`.
+* Framework: **Page Object Model (POM)**, Singleton WebDriver, Retry logic.
+* Parallel execution with **TestNG**, thread safety in WebDriver instances.
+* Implement **Selenium Grid**, Dockerized browser nodes, remote execution.
+* Integrate with **JUnit 5 + Selenium-Jupiter** ([InterviewPrep][1], [arXiv][2], [Guru99][3], [crsinfosolutions.com][4], [arXiv][5]).
+* How to deal with **dynamic elements**, `StaleElementReferenceException`.
+* Generate **custom HTML/Allure reports**, embed screenshots on failure.
+* How to implement **cross-browser** and **headless testing**.
+* Using **JavaScriptExecutor**, `scrollIntoView()`, `click()` tricks.
+* Explain **DesiredCapabilities** and `Options()` in Selenium .
+* Explain **Grid vs Distributed testing**, and CI/CD integration.
+
+---
+
+## 🧩 **BDD & Cucumber**
+
+* Difference between **TDD and BDD** ([LambdaTest][6]).
+* Core BDD principles: collaboration, ubiquitous language, outside-in design ([https://resumegemini.com][7]).
+* Differences: **Feature vs Scenario vs Scenario Outline vs Background**.
+* Gherkin Keywords: `Feature`, `Scenario`, `Scenario Outline`, `Examples`, `Background`, `And/But`.
+* How to implement **reusable steps**, tags, hooks (`@Before`, `@After`).
+* **Data-driven BDD** using `Scenario Outline`, Excel, or external files.
+* Integrating **Cucumber-JVM** with Java, Maven, TestNG/JUnit ([GeeksforGeeks][8], [Software Testing Help][9]).
+* Challenges: **dry run**, parallel execution, Reporting, Step definition maintenance.
+* Latest: scenario reusability, step auto-complete in VS Code ([arXiv][10]).
+
+---
+
+## 🧪 **API Testing**
+
+* **REST vs SOAP vs GraphQL vs gRPC**; key differences ([vervecopilot.com][11]).
+* Common status codes and their meanings: 200, 201, 204, 400, 401, 403, 404, 500.
+* Auth methods: **Basic Auth**, **Bearer/JWT**, **OAuth2**, Preemptive vs Challenged auth.
+* Serialization vs Deserialization of JSON/XML.
+* API testing tools: Postman, RestAssured, SoapUI, JMeter, Newman.
+* Testing **non-functional aspects**: load, performance, security, timeouts.
+* **Mocking APIs**, API versioning, checking schema via Swagger/OpenAPI.
+* How to **automate API tests** and integrate into CI/CD pipelines ([GeeksforGeeks][12], [vervecopilot.com][11]).
+
+---
+
+## ⚙️ **TestNG, Listeners & Framework**
+
+* Use of **@DataProvider**, **@Factory**, `invocationCount`, `dependsOnMethods`.
+* Implement **Listeners**: ITestListener, ISuiteListener, IRetryAnalyzer; logging and custom reporting.
+* Techniques for **rerunning failed tests** (retry logic).
+* How to generate **PDF/Excel/HTML** reports.
+* Structuring **hybrid frameworks**: Data-driven, Keyword-driven, Hybrid.
+* How to **orchestrate parallel execution**, thread safety, shared resource handling.
+
+---
+
+## 🌱 **Agile, Git, Tools & DevOps**
+
+* Different **Agile frameworks**: Scrum vs Kanban. Explain sprint ceremonies: planning, daily standup, review, retrospective, backlog grooming.
+* SDLC vs STLC processes.
+* Differences: **Smoke vs Sanity vs Regression vs Integration** testing.
+* Excel in prioritizing **automation candidates**: ROI, stability, repeatability.
+* **Cross-browser testing** strategies, mobile testing.
+* Git essentials: branching strategies (Git flow), rebasing, merging conflicts, cherry-pick.
+* How code coverage, SonarQube, linting aid quality.
+
+---
+
+Each of these refined questions reflects what companies are focusing on in 2025, impacting both technical depth and practical experience. Let me know if you'd like sample answers, code snippets, or a formatted PDF/docx for this!
+
+[1]: https://interviewprep.org/cucumber-bdd-tool-interview-questions/?utm_source=chatgpt.com "Top 25 Cucumber BDD Tool Interview Questions and Answers"
+[2]: https://arxiv.org/abs/2505.17168?utm_source=chatgpt.com "Designing and Implementing Robust Test Automation Frameworks using Cucumber BDD and Java"
+[3]: https://www.guru99.com/top-100-selenium-interview-questions-answers.html?utm_source=chatgpt.com "Top 100 Selenium Interview Questions and Answers for 2025"
+[4]: https://www.crsinfosolutions.com/top-selenium-interview-questions-2025/?utm_source=chatgpt.com "Top Selenium Interview Questions 2025 - crsinfosolutions.com"
+[5]: https://arxiv.org/abs/2402.01480?utm_source=chatgpt.com "Selenium-Jupiter: A JUnit 5 extension for Selenium WebDriver"
+[6]: https://www.lambdatest.com/learning-hub/bdd-interview-questions?utm_source=chatgpt.com "100+ BDD Interview Questions: Ultimate BDD Interview ... - LambdaTest"
+[7]: https://interviewgemini.com/interviews/interview-questions-for-bdd-framework/?utm_source=chatgpt.com "Interview Questions for BDD Framework - interviewgemini.com"
+[8]: https://www.geeksforgeeks.org/software-testing/cucumber-interview-questions/?utm_source=chatgpt.com "Cucumber Interview Questions with Answers - GeeksforGeeks"
+[9]: https://www.softwaretestinghelp.com/cucumber-interview-questions/?utm_source=chatgpt.com "Top 30+ Popular Cucumber Interview Questions and Answers"
+[10]: https://arxiv.org/abs/2402.15928?utm_source=chatgpt.com "Advancing BDD Software Testing: Dynamic Scenario Re-Usability And Step Auto-Complete For Cucumber Framework"
+[11]: https://www.vervecopilot.com/interview-questions/top-30-most-common-api-testing-interview-questions-for-testers-you-should-prepare-for?utm_source=chatgpt.com "Top 30 Most Common Api Testing Interview Questions For Testers You ..."
+[12]: https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/?utm_source=chatgpt.com "API Testing Interview Questions And Answers - 2025"
+
